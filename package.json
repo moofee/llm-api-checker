@@ -1,0 +1,23 @@
+{
+  "name": "llm-api-checker",
+  "version": "1.0.0",
+  "description": "验证大模型 API 和 Key 可用性的工具",
+  "main": "server.js",
+  "bin": {
+    "llm-check": "./cli.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "cli": "node cli.js"
+  },
+  "keywords": [
+    "llm",
+    "api",
+    "validator",
+    "openai",
+    "checker"
+  ],
+  "author": "smh",
+  "license": "MIT",
+  "dependencies": {}
+}
